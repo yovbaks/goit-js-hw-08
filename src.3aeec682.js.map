@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["a"],"mappings":";;;AACA,aADA,QAAA,oBACA,MAAMA,EAAI","file":"src.3aeec682.js","sourceRoot":"../src","sourcesContent":["import './sass/main.scss';\nconst a = 1;"]}
