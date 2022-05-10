@@ -36,10 +36,8 @@ function onFormInput(event) {
 }
 
 function populateStorage() {
-    
   if (localStorage.getItem(STORAGE_KEY)) {
-    const savedData = localStorage.getItem(STORAGE_KEY);
-    feedbackFormData = JSON.parse(savedData);
+    feedbackFormData = JSON.parse(localStorage.getItem(STORAGE_KEY));
   }
   if (feedbackFormData.email) {
     refs.input.value = feedbackFormData.email;
